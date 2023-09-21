@@ -1,0 +1,885 @@
+    1  export ARM_CLIENT_ID=492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4
+    2  export ARM_CLIENT_SECRET=5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu
+    3  export ARM_SUBSCRIPTION_ID=0c5ebcaa-6e92-49ca-8daf-1633d038989f
+    4  export ARM_TENANT_ID=0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+    5  env | grep ARM
+    6  az login
+    7  env | grep ARM
+    8  ARM_CLIENT_ID=492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4
+    9  ARM_TENANT_ID=0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+   10  ARM_CLIENT_SECRET=5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu
+   11  ARM_SUBSCRIPTION_ID=0c5ebcaa-6e92-49ca-8daf-1633d038989f
+   12  env | grep ARM
+   13  cat abc
+   14  ls -ltr
+   15  cat ketan
+   16  vi abc
+   17  cat abc
+   18  export ARM_CLIENT_ID=492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4
+   19  export ARM_CLIENT_SECRET=5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu
+   20  export ARM_SUBSCRIPTION_ID=0c5ebcaa-6e92-49ca-8daf-1633d038989f
+   21  export ARM_TENANT_ID=0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+   22  env | grep ARM
+   23  az login --service-principal -u 492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4 -p 5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu --tenant 0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+   24  az group list -o table
+   25  az vm list -o table
+   26  history
+   27  vi abc1
+   28  ls
+   29  cd terraform/
+   30  ls
+   31  cd ado
+   32  ls
+   33  ls -ltr
+   34  ls -al
+   35  terraform plan
+   36  export ARM_CLIENT_ID=492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4
+   37  export ARM_CLIENT_SECRET=5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu
+   38  export ARM_SUBSCRIPTION_ID=0c5ebcaa-6e92-49ca-8daf-1633d038989f
+   39  export ARM_TENANT_ID=0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+   40  az login --service-principal -u 492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4 -p 5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu --tenant 0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+   41  ls -al
+   42  terraform state list
+   43  cat main.tf
+   44  terraform state list
+   45  ls -al
+   46  rm -rf .terr*
+   47  ls -ltr
+   48  ls -alrt
+   49  more main.tf
+   50  terraform init
+   51  terraform plan
+   52  terraform apply
+   53  cd terraform/
+   54  ls
+   55  ls -l
+   56  cd ado
+   57  ls
+   58  ls -l
+   59  cd modules
+   60  ls -l
+   61  pwd
+   62  cd..
+   63  ls -l
+   64  env | grep ARM
+   65  cat abc
+   66  ls -l abc
+   67  chmod 760 abc
+   68  ls -l abc
+   69  ./abc
+   70  env | grep ARM
+   71  env
+   72  env | grep ARM
+   73  cat abc
+   74  export ARM_CLIENT_ID=492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4
+   75  export ARM_CLIENT_SECRET=5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu
+   76  export ARM_SUBSCRIPTION_ID=0c5ebcaa-6e92-49ca-8daf-1633d038989f
+   77  export ARM_TENANT_ID=0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+   78  az login --service-principal -u 492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4 -p 5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu --tenant 0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+   79  env | grep ARM
+   80  az group list -o table
+   81  az group list -o table | grep ketan
+   82  az group list -o table | grep patel
+   83  docker --version
+   84  uname -a
+   85  sudo apt  install docker.io
+   86  sudo apt-get update
+   87  sudo apt-get upgrade
+   88  sudo apt-get update
+   89  sudo apt-get upgrade
+   90  docker --version
+   91  pwd
+   92  git clone https://github.com/Azure-Samples/docker-django-webapp-linux.git --config core.autocrlf=input
+   93  ls -ltr
+   94  cd docker-django-webapp-linux
+   95  ls -al
+   96  cat Dockerfile
+   97  docker build --tag appsvc-tutorial-custom-image .
+   98  sudo  docker build --tag appsvc-tutorial-custom-image .
+   99  docker ps -a
+  100  sudo docker ps -a
+  101  sudo docker ps 
+  102  sudo docker images
+  103  sudo docker images -l
+  104  sudo docker images -a
+  105  sudo docker images
+  106  docker run -it -p 8000:8000 appsvc-tutorial-custom-image
+  107  sudo docker run -it -p 8000:8000 appsvc-tutorial-custom-image
+  108  vi abc
+  109  vi ef
+  110  cat ef
+  111  vi ef
+  112  cat ef
+  113  cat abc
+  114  env | grep ARM
+  115  cat abc
+  116  export ARM_CLIENT_ID=492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4
+  117  export ARM_CLIENT_SECRET=5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu
+  118  export ARM_SUBSCRIPTION_ID=0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  119  export ARM_TENANT_ID=0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+  120  az login --service-principal -u 492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4 -p 5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu --tenant 0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+  121  sudo docker --version
+  122  az --version
+  123  git clone https://github.com/Azure-Samples/docker-django-webapp-linux.git --config core.autocrlf=input
+  124  pwd
+  125  mkdir ado
+  126  cd ado
+  127  ls
+  128  mkdir dockerlab
+  129  cd dockerlab
+  130  git clone https://github.com/Azure-Samples/docker-django-webapp-linux.git --config core.autocrlf=input
+  131  ls -l
+  132  cd docker-django-webapp-linux/
+  133  ls]
+  134  ls -l
+  135  cat Dockerfile 
+  136  docker images
+  137  s
+  138  sudo docker images
+  139  sudo docker build --tag appsvc-tutorial-custom-image .
+  140  sudo docker images
+  141  sudo docker images --help
+  142  sudo docker image rm appsvc-tutorial-custom-image
+  143  sudo docker image
+  144  sudo docker images
+  145  sudo docker images rm ketanpatelacr.azurecr.io/appsvc-tutorial-custom-image
+  146  sudo docker image rm ketanpatelacr.azurecr.io/appsvc-tutorial-custom-image
+  147  sudo docker images
+  148  sudo docker image rm ketanpatelacr.azurecr.io/appsvc-tutorial-custom-image
+  149  sudo docker image rm ketanpatelacr.azurecr.io/appsvc-tutorial-custom-image force
+  150  sudo docker image rm ketanpatelacr.azurecr.io/appsvc-tutorial-custom-image --force
+  151  sudo docker images
+  152  docker build --tag appsvc-tutorial-custom-image .
+  153  sudo docker build --tag appsvc-tutorial-custom-image .
+  154  sudo docker images
+  155  cat Dockerfile 
+  156  sudo docker run -it -p 8000:8000 appsvc-tutorial-custom-image
+  157  curl http://localhost:8000
+  158  az identity create --name myID --resource-group ketanrg
+  159  az acr create --name ketanacr --resource-group ketanrg --sku Basic --admin-enabled true
+  160  az acr credential show --resource-group ketanrg --name ketanacr
+  161  docker images ls
+  162  sudo docker images ls
+  163  sudo docker images
+  164  sudo docker images ps
+  165  sudo docker images ps -
+  166  sudo docker images ls -a
+  167  docker images ls
+  168  sudo docker images
+  169  docker login ketanacr.azurecr.io --username ketanacr
+  170  sudo docker login ketanacr.azurecr.io --username ketanacr
+  171  sudo docker images
+  172  docker tag appsvc-tutorial-custom-image ketanacr.azurecr.io/appsvc-tutorial-custom-image:latest
+  173  sudo docker tag appsvc-tutorial-custom-image ketanacr.azurecr.io/appsvc-tutorial-custom-image:latest
+  174  sudo docker images
+  175  sudo docker push ketanacr.azurecr.io/appsvc-tutorial-custom-image:latest
+  176  cd ado
+  177  mkdir yusuf
+  178  cd yusuf
+  179  https://supernalaero@dev.azure.com/supernalaero/ketandockerwebappfromacr/_git/ketandockerwebappfromacr
+  180  git clone https://supernalaero@dev.azure.com/supernalaero/ketandockerwebappfromacr/_git/ketandockerwebappfromacr
+  181  ls
+  182  cd ketandockerwebappfromacr/
+  183  ls
+  184  cd app
+  185  cd ..
+  186  pwd
+  187  more init.sh
+  188  ls -al
+  189  git config -l
+  190  git branch
+  191  git checkout -b ketan071123
+  192  git branch
+  193  cd app/templates/app
+  194  vi index.html 
+  195  git status
+  196  cd ..
+  197  cd ../..
+  198  git add .
+  199  git status
+  200  git commit -m "changed time 11:44"
+  201  git status
+  202  git push origin --all
+  203  NzM2NzIwMTEzMTQ0OjEfnvEx+EV0iw179sw/FmaOv5zZ
+  204  mkdir bitbucket
+  205  cd bitbucket
+  206  cd existing-project
+  207  git remote set-url origin https://bitbucket.supernal.aero/scm/~kpatel/terraform_azure_iac.git
+  208  git push -u origin --all
+  209  git push origin --tags
+  210  cd ado
+  211  cd ..
+  212  cd ado
+  213  ls
+  214  cd yusuf
+  215  ls
+  216  cd ketandockerwebappfromacr/
+  217  ls
+  218  cd..
+  219  ls -al
+  220  rm -rf .git
+  221  ls -l
+  222  git status
+  223  git init
+  224  git status
+  225  git add .
+  226  git status
+  227  git commit -m "cloning to bitbucket"
+  228  git config -l
+  229  git remote add origin https://bitbucket.supernal.aero/scm/~kpatel/terraform_azure_iac.git
+  230  git config -l
+  231  git push -u origin --all
+  232  git push -u origin HEAD:master
+  233  nslookup bitbucket.supernal.aero
+  234  https://bitbucket.supernal.aero/scm/~kpatel/ketandockerwebappfromacr.git
+  235  git config -l
+  236  https://bitbucket.supernal.aero/scm/~kpatel/ketandockerwebappfromacr.git
+  237  git remote add origin https://bitbucket.supernal.aero/scm/~kpatel/ketandockerwebappfromacr.git
+  238  git remote remove  https://bitbucket.supernal.aero/scm/~kpatel/ketandockerwebappfromacr.git
+  239  git config -l
+  240  git remote remove
+  241  git remote remove remote.origin.url
+  242  git remote remove https://bitbucket.supernal.aero/scm/~kpatel/terraform_azure_iac.git
+  243  git remote remove https://bitbucket.supernal.aero/scm/~kpatel/terraform_azure_iac
+  244  exit
+  245  git config -l
+  246  pwd
+  247  cd bitbucket
+  248  ls
+  249  https://bitbucket.supernal.aero/scm/~kpatel/ketandockerwebappfromacr.git
+  250  history -10
+  251  history 10
+  252  history 
+  253  cd ado
+  254  mkdir test
+  255  cd test
+  256  history
+  257  git clone https://supernalaero@dev.azure.com/supernalaero/ketandockerwebappfromacr/_git/ketandockerwebappfromacr
+  258  ls -l
+  259  cd ketandockerwebappfromacr/
+  260  ls -al
+  261  git config -l
+  262  vi app/templates/app/index.html 
+  263  git status
+  264  git add .
+  265  git status
+  266  git commit -m " update time to 2:47 PM"
+  267  git push -u origin --all
+  268  history 20
+  269  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  270  az aks get-credentials --resource-group ketanrg --name ketank8scl
+  271  kubectl get nodes
+  272  kubectl get pods -A
+  273  kubectl get ns
+  274  kubectl get services --namespace coder
+  275  history
+  276  pwd
+  277  ls -ltr
+  278  find / -name values.yaml
+  279  vi values.yaml
+  280  exit
+  281  history
+  282  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  283  az aks get-credentials --resource-group ketanrg --name ketancoderk8s
+  284  az group list -o table
+  285  coder server
+  286  history
+  287  kubectl --namespace coder get services
+  288  curl http://localhost:3000
+  289  coder
+  290  history
+  291  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  292  az aks get-credentials --resource-group ketanrg --name coderk8s
+  293  kubectl get nodes
+  294  kubectl get pods
+  295  kubectl get pods -A
+  296  coder
+  297  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  298  az aks get-credentials --resource-group ketanrg --name ketank8scl
+  299  kubectl config current-context
+  300  kubectl config get-clusters
+  301  kubectl config 
+  302  kubectl config view
+  303  $ kubectl create namespace coder
+  304  kubectl get ns
+  305  kubectl create namespace coder
+  306  helm repo add bitnami https://charts.bitnami.com/bitnami
+  307  helm install coder-db bitnami/postgresql     --namespace coder     --set auth.username=coder     --set auth.password=coder     --set auth.database=coder     --set persistence.size=10Gi
+  308  kubectl get secret --namespace coder coder-db-postgresql -o jsonpath="{.data.postgres-password}" | base64 -d
+  309  kubectl get secret --namespace coder coder-db-postgresql -o jsonpath="{.data.password}" | base64 -d
+  310  postgres://coder:coder@coder-db-postgresql.coder.svc.cluster.local:5432/coder?sslmode=disable
+  311  postgres
+  312  helm repo add coder-v2 https://helm.coder.com/v2
+  313  # Uses Bitnami PostgreSQL example. If you have another database,
+  314  # change to the proper URL.
+  315  kubectl create secret generic coder-db-url -n coder    --from-literal=url="postgres://coder:coder@coder-db-postgresql.coder.svc.cluster.local:5432/coder?sslmode=disable"
+  316  vi values.yaml 
+  317  kubectl get svc
+  318  history
+  319  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  320  az aks get-credentials --resource-group ketanrg --name patelk8scl
+  321  kubectl config current-context
+  322  kubectl get nodes
+  323  kubectl get ns
+  324  kubectl get pods -A
+  325  kubectl get ns
+  326  $ kubectl create namespace coder
+  327  kubectl get ns
+  328  helm repo add bitnami https://charts.bitnami.com/bitnami
+  329  history
+  330  # Install PostgreSQL
+  331  helm repo add bitnami https://charts.bitnami.com/bitnami
+  332  helm install coder-db bitnami/postgresql     --namespace coder     --set auth.username=coder     --set auth.password=coder     --set auth.database=coder     --set persistence.size=10Gi
+  333  kubectl get pods -ns coder
+  334  kubectl get pods -n coder
+  335  kubectl describe pod coder-db-postgresql-0
+  336  kubectl describe pod coder-db-postgresql-0 -n coder
+  337  kubectl get pods -n coder
+  338  helm repo add coder-v2 https://helm.coder.com/v2
+  339  # Uses Bitnami PostgreSQL example. If you have another database,
+  340  # change to the proper URL.
+  341  kubectl create secret generic coder-db-url -n coder    --from-literal=url="postgres://coder:coder@coder-db-postgresql.coder.svc.cluster.local:5432/coder?sslmode=disable"
+  342  vi values.yaml
+  343  cat values.yaml 
+  344  vi values.yaml 
+  345  cat values.yaml 
+  346  helm install coder coder-v2/coder -n coder -f values.yaml
+  347  kubectl get pods --watch
+  348  kubectl get pods -n coder--watch
+  349  kubectl get pods -n coder --watch
+  350  kubectl get svc
+  351  kubectl get svc -n coder
+  352  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  353  az aks get-credentials --resource-group ketanrg --name patelk8scl
+  354  kubectl get pods
+  355  kubectl get pods -A
+  356  history
+  357  kubectl config current-context
+  358  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  359  az aks get-credentials --resource-group coderrg --name coderk8s
+  360  kubectl config current-context
+  361  kubectl get ns -A
+  362  kubectl get pods -A
+  363  kubectl get svc -A
+  364  kubectl get deployment -A
+  365  $ kubectl create namespace coder
+  366  kubectl create namespace coder
+  367  $ kubectl create namespace coder
+  368  # Install PostgreSQL
+  369  helm repo add bitnami https://charts.bitnami.com/bitnami
+  370  helm install coder-db bitnami/postgresql     --namespace coder     --set auth.username=coder     --set auth.password=coder     --set auth.database=coder     --set persistence.size=10Gi
+  371  kubectl get pods -n coder
+  372  kubectl get svc -n coder
+  373  kubectl get pods -n coder
+  374  kubectl get svc -n coder
+  375  # Install PostgreSQL
+  376  helm repo add bitnami https://charts.bitnami.com/bitnami
+  377  helm install coder-db bitnami/postgresql     --namespace coder     --set auth.username=coder     --set auth.password=coder     --set auth.database=coder     --set persistence.size=10Gi
+  378  helm repo add coder-v2 https://helm.coder.com/v2
+  379  # Uses Bitnami PostgreSQL example. If you have another database,
+  380  # change to the proper URL.
+  381  kubectl create secret generic coder-db-url -n coder    --from-literal=url="postgres://coder:coder@coder-db-postgresql.coder.svc.cluster.local:5432/coder?sslmode=disable"
+  382  kubectl get pods -n coder
+  383  kubectl get svc -n coder
+  384  ls -ltr
+  385  vi values.yaml
+  386  helm install coder coder-v2/coder     --namespace coder     --values values.yaml
+  387  kubectl get pods -n coder
+  388  kubectl get svc -n coder
+  389  history 30
+  390  history 40
+  391  tl get svc -n coder
+  392  ketan@ketanvm1:~$ history 40
+  393  kubectl get pods -n coder
+  394  kubectl describe pod -n coder coder-ketan-ketan-k8s-ws
+  395  kubectl config current-context
+  396  kubectl get pods
+  397  kubectl get pods -n coder
+  398  kubectl get svc
+  399  kubectl get svc -n coder
+  400  git clone https://github.com/ericpaulsen/templates.git
+  401  ls
+  402  ls -ltr
+  403  cd templates
+  404  ls
+  405  coder
+  406  curl -L https://coder.com/install.sh | sh
+  407  pwd
+  408  ls -l
+  409  cd pod-with-jupyter/
+  410  ls
+  411  coder login http://20.237.229.35
+  412  coder template create ketan-jupyter
+  413  cd ..
+  414  history
+  415  ls -l
+  416  cd pod-with-docker/
+  417  history
+  418  coder ls
+  419  coder template create ketan-docker
+  420  ls 
+  421  ls -l
+  422  pwd
+  423  cd pod-with-side-car/
+  424  ls
+  425  coder template create ketan-docker-sidecar
+  426  history
+  427  ls -l
+  428  vi main.tf
+  429  coder template create ketan-docker-sidecar
+  430  kubectl get pods -n coder
+  431  kubectl describe pod coder-ketan-ketan-docker-sidecar-ws-0804 -n coder
+  432  history 
+  433  history -20
+  434  history 50
+  435  cd
+  436  history
+  437  cd templates/
+  438  ls
+  439  ls -l
+  440  cd pod-with-php
+  441  ls -l
+  442  coder template create pod-with-php-template-ketan0804
+  443  cd ..
+  444  cd pod-with-php
+  445  ls
+  446  cp main.tf ~/coderdockermain.tf
+  447  cp main.tf ~/coderphpmain.tf
+  448  vi main.tf
+  449  cd ..
+  450  cd pod-with-docker/
+  451  ls -ltr
+  452  cd pod-with-side-car/
+  453  ls -l
+  454  vi main.tf
+  455  cd ..
+  456  cd pod-with-php
+  457  vi main.tf
+  458  coder template create pod-with-php-template-ketan080423
+  459  coder template create ketanphptemplate
+  460  history 30
+  461  diff main.tf ~/coderphpmain.tf
+  462  ls -l
+  463  more main.tf
+  464  cd ../pod-with-docker/
+  465  vi main.tf
+  466  cd pod-with-side-car/
+  467  vi main.tf
+  468  pwd
+  469  kubectl config current-context
+  470  ls
+  471  kubectl get ns
+  472  kubectl get pods -n coder
+  473  history
+  474  cd templates
+  475  ls
+  476  cd pod-with-docker
+  477  ls
+  478  cd pod-with-side-car/
+  479  ls
+  480  ls -l
+  481  vi main.tf
+  482  pwd
+  483  coder template create ketandockertemplate2
+  484  kubectl get pods -n coder
+  485  passwd
+  486  kubectl get pods -n coder
+  487  kubectl get services -n coder
+  488  kubectl get pods -n coder
+  489  cd templates/
+  490  ls
+  491  vi ~/abc1
+  492  vi 0810
+  493  az login
+  494  cat abc1
+  495  ./abc1
+  496  chmod 777 abc1
+  497  ./abc1
+  498  az login
+  499  history
+  500  az group list -o table
+  501  clear
+  502  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  503  az aks get-credentials --resource-group ketancoder0814rg --name ketancoder0814k8scl
+  504  kubectl get nodes
+  505  kubectl get pods
+  506  kubectl get pods -A
+  507  exit
+  508  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  509  az aks get-credentials --resource-group ketancoder0814rg --name ketancoder0814k8scl
+  510  kubectl get pods -A
+  511  kubectl get ns 
+  512  kubectl get deployments
+  513  kubectl get deployments -A
+  514  kubectl get nodes 
+  515  clear
+  516  kubectl get nodes 
+  517  kubectl get deployments -A
+  518  kubectl get ns 
+  519  kubectl get pods -A
+  520  kubectl config current-context
+  521  kubectl create namespace coder
+  522  kubectl get ns 
+  523  helm list
+  524  helm repo list
+  525  history
+  526  th.database=coder     --set persistence.size=10
+  527  kubectl create secret generic coder-db-url -n coder    --from-literal=url="postgres://coder:coder@coder-db-postgresql.coder.svc.cluster.local:5432/coder?sslmode=disable"
+  528  history 10
+  529  kubectl get pods -n coder
+  530  kubectl get svc -n coder
+  531  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  532  az aks get-credentials --resource-group ketancoder0814rg --name ketancoder0814k8scl
+  533  # Install PostgreSQL
+  534  helm repo add bitnami https://charts.bitnami.com/bitnami
+  535  helm install coder-db bitnami/postgresql     --namespace coder     --set auth.username=coder     --set auth.password=coder     --set auth.database=coder     --set persistence.size=10Gi
+  536  # Uses Bitnami PostgreSQL example. If you have another database,
+  537  # change to the proper URL.
+  538  kubectl create secret generic coder-db-url -n coder    --from-literal=url="postgres://coder:coder@coder-db-postgresql.coder.svc.cluster.local:5432/coder?sslmode=disable"
+  539  helm repo add coder-v2 https://helm.coder.com/v2
+  540  helm install coder coder-v2/coder     --namespace coder     --values values.yaml
+  541  kubectl get svc -n coder
+  542  kubectl get pods
+  543  kubectl get pods -n coder
+  544  kubectl describe pod coder-6ffbf94996-lsb26
+  545  kubectl describe pod coder-6ffbf94996-lsb26 -n coder
+  546  To get the password for "coder" run:
+  547  To connect to your database run the following command:
+  548  sudo apt-get list
+  549  sudo apt list
+  550  sudo apt list | grep gnupg
+  551  sudo apt list | grep curl
+  552  sudo apt list | grep apt-transport-https
+  553  sudo apt list | grep ca-certificates
+  554  sudo apt-get update
+  555  sudo apt-get install apt-transport-https ca-certificates gnupg curl sudo
+  556  echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+  557  cd /etc/apt/sources.list.d/
+  558  ls -l
+  559  cat google-cloud-sdk.list 
+  560  curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+  561  sudo apt-get update && sudo apt-get install google-cloud-cli
+  562  gcloud
+  563  kubectl
+  564  gcloud init
+  565  gcloud config list 
+  566  gcloud auth list
+  567  cd
+  568  gcloud auth list
+  569  gcloud config list 
+  570  gsutil ls
+  571  gsutills gs://ketanlearningbucket0818
+  572  gsutill gs://ketanlearningbucket0818
+  573  gsutil gs://ketanlearningbucket0818
+  574  gsutil gs://ketanlearningbucket0818/
+  575  gsutil ls gs://ketanlearningbucket0818/
+  576  echo `date` > ketandate
+  577  cat ketandate 
+  578  gsutil ls
+  579  gsutil cp ketandate  gs://ketanlearningbucket0818/
+  580  gsutil ls  gs://ketanlearningbucket0818/
+  581  gcloud compute networks list
+  582  gcloud components list
+  583  gcloud compute firewall-rules list
+  584  gcloud compute instances list
+  585  pwd
+  586  mkdir AKS
+  587  cd AKS
+  588  git clone https://github.com/Azure-Samples/azure-voting-app-redis.git
+  589  ls -l
+  590  cd azure-voting-app-redis/
+  591  ls -l
+  592  ls -alR
+  593  ls -l
+  594  cat docker-compose.yaml 
+  595  docker ps
+  596  sudo docker ps
+  597  sudo usermod -aG docker ketan
+  598  id -a ketan
+  599  visudo
+  600  sudo visudo
+  601  docker ps
+  602  . ~/source
+  603  exit
+  604  docker ps
+  605  history 10
+  606  pwd
+  607  ls
+  608  cd AKS
+  609  ls
+  610  ls -l
+  611  cd azure-voting-app-redis/
+  612  ls -al
+  613  cat docker-compose.yaml 
+  614  docker compose up -d
+  615  docker compose --help
+  616  docker-compose
+  617  uname -a
+  618  cat docker-compose.yaml 
+  619  docker compose up
+  620  docker-compose
+  621  sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+  622  sudo chmod +x /usr/local/bin/docker-compose
+  623  docker-compose --version
+  624  cat docker-compose.yaml 
+  625  docker-compose up -d
+  626  curl https://svo-mvp.uw.r.appspot.com/
+  627  ping svo-mvp.uw.r.appspot.com
+  628  curl https://svo-mvp.uw.r.appspot.com/
+  629  ping svo-mvp.uw.r.appspot.com
+  630  docker images
+  631  docker ps
+  632  curl http://localhost:8080
+  633  6MB
+  634  mcr.microsoft.com/oss/bitnami/redis                6.0.8       3a54a920bb6c   2 years ago      10
+  635  3MB
+  636  ketan@ketanvm1:~/AKS/azure-voting-app-redis$ docker ps
+  637  CONTAINER ID   IMAGE                                             COMMAND                  CREATED
+  638  0b88a571f864   mcr.microsoft.com/azuredocs/azure-vote-front:v1   "/entrypoint.sh /sta…"   38 minu
+  639  tes ago   Up 38 minutes   443/tcp, 0.0.0.0:8080->80/tcp, :::8080->80/tcp   azure-vote-front
+  640  df16ae61cf7a   mcr.microsoft.com/oss/bitnami/redis:6.0.8         "/opt/bitnami/script…"   38 minu
+  641  tes ago   Up 38 minutes   0.0.0.0:6379->6379/tcp, :::6379->6379/tcp        azure-vote-back
+  642  ketan@ketanvm1:~/AKS/azure-voting-app-redis$ 
+  643  ketan@ketanvm1:~/AKS/azure-voting-app-redis$ curl http://localhost:8080
+  644  <html xmlns="http://www.w3.org/1999/xhtml">
+  645  <head>
+  646  </head>
+  647  <body>
+  648  </body>
+  649  history
+  650  az acr login --name ketanacr.azurecr.io
+  651  docker images
+  652  az acr list --resource-group myResourceGroup --query "[].{acrLoginServer:loginServer}" --output table
+  653  az acr list --resource-group ketanrg --query "[].{acrLoginServer:loginServer}" --output table
+  654  docker images
+  655  az acr list --resource-group ketanrg --query "[].{acrLoginServer:loginServer}" --output table
+  656  az acr login --name ketanacr.azurecr.io
+  657  docker tag mcr.microsoft.com/azuredocs/azure-vote-front:v1 ketanacr.azurecr.io/azure-vote-front:v1
+  658  docker images
+  659  docker push ketanacr.azurecr.io/azure-vote-front:v1
+  660  az acr repository list --name ketanacr.azurecr.io
+  661  az acr repository show-tags --name ketanacr.azurecr.io --repository azure-vote-front --output table
+  662  sudo apt install redis-cli
+  663  sudo apt install redis-tools
+  664  gcloud config list
+  665  gcloud auth list
+  666  redis-cli -h 10.116.110.59 PING
+  667  ping 10.116.110.59
+  668  ./abc
+  669  az account list
+  670  az account show
+  671  az login
+  672  kubectl get pods
+  673  kubectl describe pod mypod1
+  674  \
+  675  history
+  676  az account set --subscription 0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  677  az aks get-credentials --resource-group ketancoder0814rg --name ketancoder0814k8scl
+  678  kubectl get nodes
+  679  kubectl get ns
+  680  kubectl get pods -n coder
+  681  kubectl get pvc
+  682  kubectl get pv
+  683  kubectl describe coder-yusuf-test-ysf-docker
+  684  kubectl describe pod coder-yusuf-test-ysf-docker
+  685  kubectl describe pod coder-yusuf-test-ysf-docker -n coder
+  686  kubectl get pv 
+  687  kubectl get pvc
+  688  kubectl describe pod coder-yusuf-test-ysf-docker -n coder
+  689  cd templates/
+  690  ls
+  691  cd pod-with-docker/
+  692  ls -l
+  693  cd pod-with-side-car/
+  694  ls -l
+  695  vi main.tf
+  696  sudo docker images
+  697  docker run -p 8501:8501 ketanacr.azurecr.io/flighttest1_image1
+  698  docker images
+  699  mkdir 0905-nginx
+  700  cd 0905-nginx/
+  701  docker run --name mynginx1 -p 80:8502 -d nginx
+  702  docker images
+  703  docker ps
+  704  curl http://localhost
+  705  curl http://localhost:8502
+  706  docker image 
+  707  docker image  rm nginx --force
+  708  docker images
+  709  docker run --name nginx0905 -p 80:80 -d nginx
+  710  docker run --name nginx0905 -p 80:8080 -d nginx
+  711  docker run --name nginx0905 -p 80:8502-d nginx
+  712  docker run --name nginx0905 -p 80:8502 -d nginx
+  713  docker run --name nginx0905 -p 80:8503 -d nginx
+  714  docker ps
+  715  docker ps -a
+  716  docker container
+  717  docker container rm 96ed27aa669e
+  718  docker run --name nginx0905 -p 80:8502 -d nginx
+  719  docker run --name nginx090523 -p 80:8505 -d nginx
+  720  docker run --name nginx090523 -p 8510:80 -d nginx
+  721  docker run --name nginxketan1 -p 8510:80 -d nginx
+  722  docker images
+  723  docker ps
+  724  curl http://localhost:8502
+  725  curl http://localhost:8510
+  726  docker login
+  727  . ~/abc
+  728  az acr login --name ketanacr.azurecr.io
+  729  docker images
+  730  docker tag nginx ketanacr.azurecr.io/nginx
+  731  docker images
+  732  docker push ketanacr.azurecr.io/nginx
+  733  #az webapp config appsettings set --resource-group <group-name> --name <app-name> --settings WEBSITES_PORT=8000
+  734  az webapp config appsettings set --resource-group ketan0905rg --name ketannginx1 --settings WEBSITES_PORT=8510
+  735  history
+  736  az webapp config appsettings set --resource-group ketan0905rg --name ketanflighttest0905 --settings WEBSITES_PORT=8501
+  737  az webapp config appsettings set --resource-group ketan0905rg --name ketanflight0905 --settings WEBSITES_PORT=8501
+  738  curl http://0.0.0.0:8501
+  739  pwd
+  740  ls
+  741  ls -ltr
+  742  cd 0831
+  743  ls
+  744  cd fligttest/
+  745  ls
+  746  cd FlightTest/
+  747  ls
+  748  cp Dockerfile ketandf
+  749  vi Dockerfile 
+  750  pwd
+  751  docker images
+  752  ls -l
+  753  docker build -t flightest0905
+  754  docker build -t flightest0905 .
+  755  docker images
+  756  docker tag flightest0905 ketanacr.azurecr.io/flightest0905
+  757  docker images
+  758  docker push ketanacr.azurecr.io/flightest0905
+  759  ketan@ketanvm1:~$ az appservice plan create --name ketanasp0906 --resource-group ketanrg --is-linux
+  760  ketan@ketanvm1:~$ az webapp create --resource-group ketanrg  --plan ketanasp0906 --name ketannginx0906 --deployment-container-image-name ketanacr.azurecr.io/nginx:latest
+  761  az webapp config appsettings set --resource-group ketanrg --name ketanasp0906 --settings WEBSITES_PORT=8010
+  762  az webapp config appsettings set --resource-group ketanrg --name ketannginx0906 --settings WEBSITES_PORT=8010
+  763  az account show
+  764  az network private-endpoint create --name myPrivateEndpoint --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name myConnectionName --private-connection-resource-id /subscriptions/SubscriptionID/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/myWebApp --group-id sites
+  765  az network private-endpoint --resource-group optum-ketan-east-rg create --name ketanweb1PE --vnet-name jmh-west-vnet1 --subnet default --connection-name ketanweb1connection  --private-connection-resource-id /subscriptions/0c5ebcaa-6e92-49ca-8daf-1633d038989f/resourceGroups/optum-ketan-east-rg/providers/Microsoft.Web/sites/ketanweb1 --group-id sites
+  766  az group create --name myResourceGroup --location westus
+  767  az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --location francecentral --sku P1V2 az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --location westus --sku P1V2 \
+  768  az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --location westus --sku P1V2--number-of-workers 1
+  769  az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --location westus --sku P1V2 --number-of-workers 1
+  770  az network vnet create --name myVNet --resource-group myResourceGroup --location francecentral --address-prefixes 10.8.0.0/16 --subnet-name mySubnet \
+  771  vi ab1
+  772  cat ab1
+  773  az network vnet create --name myVNet --resource-group myResourceGroup --location westus --address-prefixes 10.8.0.0/16  --subnet-name mySubnet --subnet-prefixes 10.8.100.0/24
+  774  history
+  775  az network vnet subnet update --name mySubnet --resource-group myResourceGroup --vnet-name myVNet --disable-private-endpoint-network-policies true
+  776  az network private-endpoint create --name myPrivateEndpoint --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name myConnectionName --private-connection-resource-id /subscriptions/SubscriptionID/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/myWebApp --group-id sites
+  777  az network private-endpoint create --name myPrivateEndpoint --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name myConnectionName --private-connection-resource-id /subscriptions/0c5ebcaa-6e92-49ca-8daf-1633d038989f/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/myWebApp --group-id sites
+  778  history 20
+  779  az webapp create --name mySiteName --resource-group myResourceGroup --plan myAppServicePlan
+  780  az webapp create --name mySiteName0906 --resource-group myResourceGroup --plan myAppServicePlan
+  781  KETAN
+  782  az group create --name myResourceGroup --location uswest
+  783  az group create --name myResourceGroup --location westus
+  784  az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --location francecentral --sku P1V2 az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --location westus --sku P1V2 --number-of-workers 1
+  785  az appservice plan create --name myAppServicePlan --resource-group myResourceGroup --location westus --sku P1V2 --number-of-workers 1
+  786  az webapp create --name mySiteName --resource-group myResourceGroup --plan myAppServicePlan
+  787  vi ab1
+  788  cat ab1
+  789  vi ab1
+  790  more ab1
+  791  clear
+  792  more ab1
+  793  vi ab1
+  794  #  az webapp create --resource-group myResourceGroup  --plan myAppServicePlan --name mySiteName090723 --deployment-container-image-name ketanacr.azurecr.io/nginx:latest
+  795  az webapp create --resource-group myResourceGroup  --plan myAppServicePlan --name mySiteName090823 --deployment-container-image-name ketanacr.azurecr.io/nginx:latest
+  796  curl mySiteName090823.azurewebsites.net
+  797  nslookup mySiteName090823.azurewebsites.net
+  798  #  az network private-endpoint create --name myPrivateEndpoint --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name myConnectionName  --private-connection-resource-id /subscriptions/0c5ebcaa-6e92-49ca-8daf-1633d038989f/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/mySiteName090723 --group-id sites
+  799  az network private-endpoint create --name myPrivateEndpoint --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name myConnectionName  --private-connection-resource-id /subscriptions/0c5ebcaa-6e92-49ca-8daf-1633d038989f/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/mySiteName090823 --group-id sites
+  800  az network private-endpoint create --name myPrivateEndpoint090823 --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name myConnectionName090823  --private-connection-resource-id /subscriptions/0c5ebcaa-6e92-49ca-8daf-1633d038989f/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/mySiteName090823 --group-id sites
+  801  nslookup mySiteName090823.azurewebsites.net
+  802  curl mySiteName090823.azurewebsites.net
+  803  #  az network private-dns link vnet create --name myDNSLink --resource-group myResourceGroup --registration-enabled false --virtual-network myVNet --zone-name privatelink.azurewebsites.net
+  804  #  az network private-dns link vnet create --name myDNSLink090823 --resource-group myResourceGroup --registration-enabled false --virtual-network myVNet --zone-name privatelink.azurewebsites.net
+  805  az network private-dns link vnet create --name myDNSLink090823 --resource-group myResourceGroup --registration-enabled false --virtual-network myVNet --zone-name privatelink.azurewebsites.net
+  806  #  az network private-endpoint dns-zone-group create --name myZoneGroup --resource-group myResourceGroup  --endpoint-name myPrivateEndpoint --private-dns-zone privatelink.azurewebsites.net --zone-name privatelink.azurewebsites.net
+  807  #  az network private-endpoint dns-zone-group create --name myZoneGroup090823 --resource-group myResourceGroup  --endpoint-name myPrivateEndpoint090823 --private-dns-zone privatelink.azurewebsites.net --zone-name privatelink.azurewebsites.net
+  808  curl mySiteName090823.azurewebsites.net
+  809  nslookup mySiteName090823.azurewebsites.net
+  810  #  az webapp create --resource-group myResourceGroup  --plan myAppServicePlan --name mySiteName090723 --deployment-container-image-name ketanacr.azurecr.io/nginx:latest
+  811  az webapp create --resource-group myResourceGroup  --plan myAppServicePlan --name ketan0908 --deployment-container-image-name ketanacr.azurecr.io/nginx:latest
+  812  curl ketan0908.azurewebsites.net
+  813  nslookup ketan0908.azurewebsites.net
+  814  #  az network private-endpoint create --name myPrivateEndpoint --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name myConnectionName  --private-connection-resource-id /subscriptions/0c5ebcaa-6e92-49ca-8daf-1633d038989f/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/mySiteName090723 --group-id sites
+  815  az network private-endpoint create --name ketan0908PE --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name ketan0908connection  --private-connection-resource-id /subscriptions/0c5ebcaa-6e92-49ca-8daf-1633d038989f/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/ketan0908 --group-id sites
+  816  az network private-endpoint dns-zone-group create --name ketan0908dnszonegroup --resource-group myResourceGroup  --endpoint-name ketan0908PE --private-dns-zone privatelink.azurewebsites.net --zone-name privatelink.azurewebsites.net
+  817  az webapp create --resource-group myResourceGroup  --plan myAppServicePlan --name ketanpatel0908 --deployment-container-image-name ketanacr.azurecr.io/nginx:latest
+  818  az network private-endpoint create --name ketanpatel0908PE --resource-group myResourceGroup --vnet-name myVNet --subnet mySubnet --connection-name ketanpatel0908connection  --private-connection-resource-id /subscriptions/0c5ebcaa-6e92-49ca-8daf-1633d038989f/resourceGroups/myResourceGroup/providers/Microsoft.Web/sites/ketanpatel0908 --group-id sites
+  819  az network private-endpoint dns-zone-group create --name ketanpatel0908ZoneGroup --resource-group myResourceGroup  --endpoint-name ketanpatel0908PE --private-dns-zone privatelink.azurewebsites.net --zone-name privatelink.azurewebsites.net
+  820  cat abc1
+  821  export ARM_SUBSCRIPTION_ID=0c5ebcaa-6e92-49ca-8daf-1633d038989f
+  822  export ARM_TENANT_ID=0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+  823  az login --service-principal -u 492cc1bd-f8a1-4b69-bea5-7a079c5c7ee4 -p 5KG8Q~XlgptrIvSDXyK2eWoZltRA9VOcjfdzmaYu --tenant 0e2cbf8d-7875-49ae-a60d-2dd1d044a682
+  824  git clone https://bitbucket.supernal.aero/scm/dat/testandeval.git
+  825  cd histor
+  826  history
+  827  pwd
+  828  ls -ltr
+  829  cd *0912
+  830  ls
+  831  cd *2
+  832  ls
+  833  docker build -t flighttest0912 .
+  834  docker ps
+  835  docker ps -a
+  836  sudo docker images
+  837  history
+  838  sudo docker images
+  839  sudo docker tag flighttest0912 ketanacr.azurecr.io/flighttest0912:latest
+  840  sudo docker images
+  841  sudo docker push ketanacr.azurecr.io/flighttest0912:latest
+  842  history 50
+  843  history
+  844  curl https://flighttest0912.azurewebsites.net/
+  845  exit
+  846  cd flighttest0912/flighttest0912/
+  847  ls
+  848  cat Dockerfile 
+  849  cat requirements.txt 
+  850  pwd
+  851  cd app
+  852  df -h
+  853  ls
+  854  ls -al
+  855  cd .git
+  856  ls
+  857  cd objects/
+  858  ls
+  859  ls -lR
+  860  docker history docker
+  861  sudo docker history
+  862  sudo docker images
+  863  docker history ketanacr.azurecr.io/nginx
+  864  exit
+  865  cd flighttest0912/flighttest0912/
+  866  ls -l
+  867  cat requirements.txt 
+  868  cat Dockerfile 
+  869  docker images
+  870  ls -l
+  871  cat Dockerfile 
+  872  docker images
+  873  docker run -p 8501:8501 6d76396f2ed9
+  874  pw
+  875  cd
+  876  cd nginx0912/
+  877  ls -l
+  878  docker images| grep nginx
+  879  docker images| grep flighttest
+  880  docker run -p 8501:8501 6d76396f2ed9
+  881  ls -l
+  882  cat Dockerfile 
+  883  ls -l
+  884  history
+  885  history > h0913
